@@ -31,16 +31,21 @@ ShowScreen.navigationOptions = ({ navigation }) => {
 
 const styles = StyleSheet.create({
     container: {
-        marginHorizontal: 10,
+        backgroundColor: "#272727",
+        paddingHorizontal: 15,
+        flex: 1,
     },
     title: {
         // textAlign: "center",
         fontSize: 24,
         fontWeight: "700",
-        marginVertical: 10,
+        marginVertical: 20,
+        textAlign: "center",
+        color: "white"
     },
     content: {
-        fontSize: 18
+        fontSize: 18,
+        color: "white"
     },
     headerIcon: {
         fontSize: 30,
